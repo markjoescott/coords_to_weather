@@ -1,5 +1,17 @@
 <h1>Weather Lookup</h1>
 
+<form action="http://localhost:3000/weather">
+    <div>
+      <label for="address" >Please enter an address</label>
+      <input name="address" type="text" id="first">
+    </div>
+
+      <div>
+      <input type="submit" value="coordinates">
+
+    </div>
+    </form>
+
 <dl>
   <dt>Latitude:</dt>
   <dd><%= @latitude %></dd>
